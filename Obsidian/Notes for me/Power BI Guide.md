@@ -1,0 +1,3 @@
+- click `get data` to upload the data
+- then go to the `transform data` option  and then clean the data by removing null values and giving proper names to atributes.
+- Then add a new `text box` and add the title of the database name

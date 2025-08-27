@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background: whitesmoke;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.banner{
+    background: url(https://pninfosys.org/bannerFinal.jpg) ;
+    width: 100%;
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text{
+    top: 0;
+    bottom: 0;
+    width: 35%;
+    height:640px ;
+    /* background: rgba(52, 52, 233, 0.377); */
+     background: rgba(8, 8, 160, 0.747);
+    color: white;
+    padding: 150px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-weight: lighter;
+   
+}
+.text p{
+font-size: 15px;
+}
+.text h2{
+    font-weight: lighter;
+    font-size: 35px;
+}
+.text h1{
+    font-size: 45px;
+}
+.b{
+    width: 100%;
+    height: 230px;
+    padding: 40px 30px;
+}
+.b h1{
+    color: blue;
+
+}
+.b p{
+    color: black;
+    text-align: justify;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.behind{
+    background: url(https://pninfosys.org/contentBgTwo.jpg);
+    background-blend-mode: 10%;
+    background-repeat: repeat-2;
+    height: 1900px;
+    background-attachment: fixed;
+}
+.overlay{
+    top: 0;
+    width: 100%;
+    height: 1900px;
+    background: rgba(43, 43, 231, 0.377);
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: justify;
+    color: white;
+}
+.web{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 0 50px;
+}
+.courses{
+    background: rgba(219, 226, 231, 0.473);
+    width: 100%;
+    height: 990px;
+   padding: 100px 100px;
+   display: grid;
+   grid-template-columns:repeat(4 , 1fr);
+}
+footer{
+    width: 100%;
+    height: 340px;
+    background: url(/image/bg\ image\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+.d{
+    width: 100%;
+    padding: 50px 100px ;
+    height: 100%;
+    background: rgba(8, 8, 160, 0.747);
+}
+.Contact
+{
+    display: flex;
+    border-top: 1px solid white;
+     border-bottom: 1px solid white;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+
+}
